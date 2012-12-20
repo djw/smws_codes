@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<script type="text/javascript" src="js/list.min.js"></script>
+{% endblock %}
+
+{% block body %}
+<div id="whisky-list">
+    <input class="search" type="search" placeholder="Search" autocorrect="off"/>
+    <ul class="list">
+        {% for whisky in whiskies %}
+        <li>
+            <div class="number">{{ whisky.number }}</div>
+            <div class="name">{{ whisky.name }}</div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<script>
+var options = {
+    valueNames: ['number', 'name']
+};
+
+var whiskyList = new List('whisky-list', options);
+</script>
+{% endblock %}
