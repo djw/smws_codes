@@ -643,5 +643,20 @@
         "status": "active",
         "region": "islay",
         "name": "Kilchoman"
+    },
+    "130": {
+        "status": "active",
+        "region": "japan",
+        "name": "Chichibu"
+    },
+    "131": {
+        "status": "closed",
+        "region": "japan",
+        "name": "Hanyu"
+    },
+    "132": {
+        "status": "closed",
+        "region": "japan",
+        "name": "Karuizawa"
     }
 }
