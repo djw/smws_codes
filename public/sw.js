@@ -1,9 +1,15 @@
-const CACHE_NAME = 'smws-codes-v1';
+const CACHE_NAME = 'smws-codes-v3';
 const urlsToCache = [
   '/',
   '/index.html',
+  '/manifest.json',
   '/css/base.css',
   '/css/leaguegothic-regular-webfont.woff',
+  '/images/icon-152.png',
+  '/images/icon-167.png',
+  '/images/icon-180.png',
+  '/images/icon-192.png',
+  '/images/icon-512.png',
   'https://cdn.jsdelivr.net/npm/list.js@2.3.1/dist/list.min.js'
 ];
 
